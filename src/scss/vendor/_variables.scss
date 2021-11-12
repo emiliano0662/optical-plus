@@ -1,0 +1,38 @@
+/*Colores*/
+$color-primary: #83BA00;
+$color-secondary: #B4192E;
+$color-third: #666666;
+$color-fourth: #838383;
+$color-fifth: #84BD00;
+$color-sixth: #888888;
+$color-seventh: #B4B4B4;
+$color-eighth: #979797;
+$color-nineth: #191D20;
+$color-tenth: #4A4A4A;
+$color-eleventh: #991426;
+$color-twelfth: #BBBBBB;
+$color-thirteenth: #F3F3F3;
+
+/*Breakpoints*/
+$phone: '(max-width: 479px)';
+$phone-tablet: '(min-width: 480px) and (max-width: 767px)';
+$tablet-medium: '(min-width: 768px) and (max-width: 849px)';
+$medium-large: '(min-width: 850px) and (max-width: 990px)';
+$large-extra: '(min-width: 991px) and (max-width: 1199px)';
+$extra-full: '(min-width: 1200px) and (max-width: 1399px)';
+$full: '(min-width: 1400px)';
+
+@mixin respond-to($media) {
+    @media only screen and #{$media} {
+        @content;
+    }
+}
+
+// Breakpoints
+// @include respond-to($phone) {}
+// @include respond-to($phone-tablet) {}
+// @include respond-to($tablet-medium) {}
+// @include respond-to($medium-large) {}
+// @include respond-to($large-extra) {}
+// @include respond-to($extra-full) {}
+// @include respond-to($full) {}
