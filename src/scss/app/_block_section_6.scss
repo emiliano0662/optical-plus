@@ -1,0 +1,82 @@
+.block-section-6 {
+    padding: 150px 0px;
+    background-color: #eaf3f8;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($large-extra) {
+        padding: 60px 0px;
+    }
+
+    .mb-150 {
+        margin-bottom: 150px;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($large-extra) {
+            margin-bottom: 30px;
+        }
+    }
+
+    h2 {
+        margin-bottom: 60px;
+        font-family: 'MyriadPro-Bold';
+        letter-spacing: 5px;
+        font-weight: 600;
+        font-size: 60px;
+        color: #00379E;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-bottom: 30px;
+            font-size: 35px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-bottom: 30px;
+            font-size: 35px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($large-extra) {
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.block-section-5 {
+    padding: 100px 0px 30px 0px;
+    background-color: #FFFFFF;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($large-extra) {
+        padding-top: 60px;
+    }
+
+    .container {
+        max-width: 1100px;
+    }
+
+    h2 {
+        margin-bottom: 0px;
+        font-family: 'MyriadPro-Bold';
+        font-weight: 600;
+        font-size: 45px;
+        color: #00379E;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-top: 0px;
+            margin-bottom: 30px;
+            font-size: 35px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-top: 0px;
+            margin-bottom: 30px;
+            font-size: 35px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($medium-large) {
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        @include respond-to($large-extra) {
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+    }
+}
