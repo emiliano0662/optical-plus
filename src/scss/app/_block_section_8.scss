@@ -1,0 +1,141 @@
+.block-section-8 {
+    padding: 120px 0px 90px 0px;
+    background-color: #eaf3f8;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px 30px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px 30px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px 30px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 60px 0px 30px 0px;
+    }
+
+    .container-item {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            text-align: center;
+            align-items: center;
+        }
+
+        @include respond-to($phone-tablet) {
+            text-align: center;
+            align-items: center;
+        }
+
+        @include respond-to($tablet-medium) {
+            text-align: center;
+            align-items: center;
+        }
+
+        @include respond-to($medium-large) {
+            text-align: center;
+            align-items: center;
+        }
+
+        .img-fluid {
+            height: 350px;
+            margin-bottom: 10px;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                height: auto;
+                max-height: 250px;
+            }
+
+            @include respond-to($phone-tablet) {
+                height: auto;
+                max-height: 250px;
+            }
+
+            @include respond-to($tablet-medium) {
+                height: auto;
+                max-height: 250px;
+            }
+
+            @include respond-to($medium-large) {
+                height: auto;
+                max-height: 250px;
+            }
+        }
+
+        .container-image {
+            width: 100%;
+            height: 350px;
+            margin-bottom: 10px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            background-position: center center;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                height: 250px;
+            }
+
+            @include respond-to($phone-tablet) {
+                height: 250px;
+            }
+
+            @include respond-to($tablet-medium) {
+                height: 250px;
+            }
+
+            @include respond-to($medium-large) {
+                height: 250px;
+            }
+        }
+
+        h2 {
+            margin-bottom: 0px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #00379E;
+        }
+
+        h3 {
+            margin-bottom: 0px;
+            font-weight: 700;
+            font-size: 16px;
+            color: #ee9604;
+        }
+
+        &.text-right {
+            align-items: flex-end;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                align-items: center;
+            }
+
+            @include respond-to($phone-tablet) {
+                align-items: center;
+            }
+
+            @include respond-to($tablet-medium) {
+                align-items: center;
+            }
+
+            @include respond-to($medium-large) {
+                align-items: center;
+            }
+        }
+    }
+}

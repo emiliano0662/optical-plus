@@ -1,0 +1,64 @@
+.block-section-9 {
+    padding: 60px 0px 30px 0px;
+    background-color: #eaf3f8;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px 30px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px 30px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px 30px 0px;
+    }
+
+    @include respond-to($medium-large) {
+        padding: 60px 0px 30px 0px;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+        font-family: 'MyriadPro-Bold';
+        font-weight: 400;
+        font-size: 50px;
+        color: #000000;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            font-size: 25px;
+        }
+
+        @include respond-to($phone-tablet) {
+            font-size: 25px;
+        }
+    }
+
+    .container-items {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        .item {
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-size: cover;
+            background-color: #4c6971;
+            background-repeat: no-repeat;
+            background-position: center center;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            border-radius: 25px;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+}
