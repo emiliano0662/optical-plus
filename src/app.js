@@ -15,5 +15,13 @@ var wow = new WOW({
 //$('header').load("header.html");
 //$('footer').load("footer.html");
 
+$(document).on('click', '.nav-link', function (event) {
+    event.preventDefault();
+
+    var nav_menu = $(this).attr('href');
+
+    $('html, body').animate({ scrollTop: $(nav_menu).offset().top }, 1000);
+});
+
 /*Se agregan las animaciones para toda la pagina que no cargan de menera recurrente*/
 wow.init();
