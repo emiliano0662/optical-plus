@@ -2,6 +2,14 @@ header {
     position: absolute;
     z-index: 1;
 
+    .navbar-language {
+        background-color: transparent;
+
+        img {
+            width: 35px;
+        }
+    }
+
     .navbar {
         background-color: #FFFFFF !important;
 
