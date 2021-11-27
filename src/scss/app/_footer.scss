@@ -90,6 +90,70 @@ footer {
                     color: #023ca7;
                 }
             }
+
+            .wpcf7-form-control-wrap {
+                width: 100%;
+                margin-bottom: 0px;
+
+                .wpcf7-not-valid-tip {
+                    display: none;
+                }
+            }
+
+            .wpcf7-response-output {
+                max-width: 300px;
+                display: none;
+                margin-top: 15px;
+                padding: 1rem 1rem;
+                text-align: center;
+                border: 1px solid transparent;
+                -webkit-border-radius: 0px;
+                -moz-border-radius: 0px;
+                border-radius: 0px;
+
+                // Breakpoints
+                @include respond-to($phone) {
+                    margin-bottom: 15px;
+                }
+
+                @include respond-to($phone-tablet) {
+                    margin-bottom: 15px;
+                }
+
+                @include respond-to($tablet-medium) {
+                    margin-bottom: 15px;
+                }
+
+                @include respond-to($medium-large) {
+                    margin-bottom: 15px;
+                }
+            }
+
+            &.sent {
+                padding-top: 15px;
+
+                .wpcf7-response-output {
+                    display: block;
+                    border-color: #badbcc;
+                    background-color: #d1e7dd;
+                    color: #0f5132;
+                }
+            }
+
+            &.invalid {
+                padding-top: 15px;
+
+                .wpcf7-response-output {
+                    display: block;
+                    border-color: #f5c2c7;
+                    background-color: #f8d7da;
+                    color: #842029;
+                }
+            }
+        }
+
+        .screen-reader-response {
+            display: none;
         }
 
         .container-social-media {
