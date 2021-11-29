@@ -12,10 +12,10 @@ var wow = new WOW({
     scrollContainer: null
 });
 
-$('header').load("header.html");
-$('footer').load("footer.html");
+//$('header').load("header.html");
+//$('footer').load("footer.html");
 
-$(document).on('click', '.nav-link', function (event) {
+$(document).on('click', '.bt-scrolltop', function (event) {
     event.preventDefault();
 
     var nav_menu = $(this).attr('href');

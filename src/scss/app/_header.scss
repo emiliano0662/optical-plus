@@ -18,7 +18,7 @@ header {
             .navbar-nav {
 
                 .nav-item {
-                    margin-right: 100px;
+                    margin-right: 80px;
 
                     // Breakpoints
                     @include respond-to($phone) {
