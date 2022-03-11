@@ -1,8 +1,8 @@
 @import "./vendor/lineicons";
 @import "~bootstrap/scss/bootstrap";
+@import "../../node_modules/simplelightbox/src/simple-lightbox";
 @import "~animate.css/animate.min.css";
 @import "./vendor/variables";
-@import "../../node_modules/swiper/swiper";
 @import './app/global';
 @import './app/header';
 @import './app/footer';
@@ -16,3 +16,4 @@
 @import './app/block_section_8';
 @import './app/block_section_9';
 @import './app/block_section_10';
+@import './app/block_section_11';
